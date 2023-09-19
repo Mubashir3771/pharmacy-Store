@@ -62,7 +62,7 @@ class MedicalStores(Document):
                     "medical_store": self.name
                 }).insert()
             
-    # Create a user and user permission after the document has been inserted
+            
     def after_insert(self):        
         # Create a user and user permission after the document has been inserted
         if not frappe.db.exists("User", {
