@@ -9,8 +9,7 @@ from frappe import _
 
 class MedicalStores(Document):
     def validate(self):  
-        for m in self.medicine_name:
-            # print("mmmmmmmmmmmmmmmmmmmmmmmmm\n", fmt_money(12, currency = 'Pkr'))
+        for m in self.medicine_name:            
             # Check if a buying price document exists
             if frappe.db.exists("Item Price", {
                 "item_code": m.item_code,
