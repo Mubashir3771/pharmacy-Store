@@ -1,0 +1,36 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"psddyUZuRl\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Medical Store</span>\",\"col\":12}},{\"id\":\"FNKCVHSJTu\",\"type\":\"paragraph\",\"data\":{\"text\":\"This Workspace is for the Medical Store Manager\",\"col\":12}},{\"id\":\"d7DPADjQ7s\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Medical Store\",\"col\":3}}]",
+ "creation": "2023-09-08 15:12:10.565043",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Medical Store",
+ "links": [],
+ "modified": "2023-09-11 18:13:50.275982",
+ "modified_by": "Administrator",
+ "module": "Pharmacy",
+ "name": "Medical Store",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Medical Store",
+   "link_to": "Medical Stores",
+   "type": "DocType"
+  }
+ ],
+ "title": "Medical Store"
+}

@@ -1,0 +1,165 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:PH-{medical_store_name}-{registration_number}",
+ "creation": "2023-08-29 16:29:59.721825",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "store_info_section",
+  "medical_store_name",
+  "phone",
+  "registration_number",
+  "email",
+  "city",
+  "country",
+  "location",
+  "image",
+  "medicine_info_section",
+  "medicine_name",
+  "search_medicine_section",
+  "search_medicine",
+  "medicine_html"
+ ],
+ "fields": [
+  {
+   "fieldname": "medical_store_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Medical Store Name",
+   "permlevel": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Phone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "registration_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Registration Number",
+   "permlevel": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "City",
+   "reqd": 1
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Small Text",
+   "label": "Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Image"
+  },
+  {
+   "fieldname": "medicine_name",
+   "fieldtype": "Table",
+   "label": "Medicine Name",
+   "options": "Medicine"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "store_info_section",
+   "fieldtype": "Section Break",
+   "label": "Store Info"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "medicine_info_section",
+   "fieldtype": "Section Break",
+   "label": "Medicine Info"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "search_medicine_section",
+   "fieldtype": "Section Break",
+   "label": "Search Medicine Info"
+  },
+  {
+   "fieldname": "medicine_html",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "search_medicine",
+   "fieldtype": "Link",
+   "label": "Search Medicine",
+   "options": "Item"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "permlevel": 1,
+   "reqd": 1
+  }
+ ],
+ "image_field": "image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-12 12:02:20.438593",
+ "modified_by": "Administrator",
+ "module": "Pharmacy",
+ "name": "Medical Stores",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Medical Store Manager",
+   "set_user_permissions": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Medical Store Manager",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
